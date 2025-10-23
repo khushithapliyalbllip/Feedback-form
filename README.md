@@ -1,4 +1,4 @@
-# Feedback-form
+Feed back form
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,8 +27,7 @@
             id="email"
             type="email"
             name="email"
-            size="20"
-          />
+            size="20"/>
           <label for="age">Age (optional):</label>
           <input type="number" name="age" id="age" min="3" max="100" />
         </fieldset>
@@ -99,9 +98,9 @@
 
         <label for="comments">Other Comments?</label>
         <textarea cols="30" rows="10" name="comments" id="comments"></textarea>
-        
+
         <button type="submit">Submit</button>
-        </form>
+      </form>
     </main>
   </body>
 </html>
